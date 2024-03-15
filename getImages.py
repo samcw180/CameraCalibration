@@ -1,11 +1,10 @@
 import cv2
 
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 num = 0
 
 while cap.isOpened():
-
     succes, img = cap.read()
 
     k = cv2.waitKey(5)
